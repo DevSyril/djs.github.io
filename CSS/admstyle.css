@@ -1,0 +1,75 @@
+img, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-left: 20%;
+    padding: 10px;
+}
+.head_items {
+    width: 96%;
+    margin: 10px;
+    align-items: end;
+    justify-content: right;
+    box-shadow: 4px 4px 5px #111;
+    border:  1px solid transparent;
+    padding: 20px 10px;
+}
+.dash_icons {
+    width: 60px;
+    height: 60px;
+}
+.dash_card {
+    margin: 30px 0;
+    padding: 20px 30px;
+    background-color: purple;
+    display: flex;
+    justify-content: baseline;
+    align-items:center;
+    gap: 10px;
+    font-family: quicksand-bold;
+    font-size: 20px;
+    color: white;
+}
+.ajout {
+    background-color: brown;
+    color: white;
+    font-family: quicksand-bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.button_td {
+    display: flex;
+    justify-content: right;
+}
+.list_zone {
+    margin: 50px 0;
+    padding: 0 30px;
+}
+.article_img {
+    background-image: url(../Images/avocat-fonction-livre-droit-dossier_79405-12130.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
+}
+.article {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+}
+.list_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-family: quicksand-regular;
+    font-size: 14px;
+}
+.list_zone table {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,152 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Les Font-faces pour utiliseer mes propres styles de police*/
+
+@font-face {
+    font-family: baloo;
+    src: url(../Fonts1/baloo.thambi-regular.ttf);
+}
+@font-face {
+    font-family: quicksand-regular;
+    src: url(../Fonts1/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: quicksand-bold;
+    src: url(../Fonts1/Quicksand-Bold.ttf);
+}
+@font-face {
+    font-family: quicksand-light;
+    src: url(../Fonts1/Quicksand-Light.ttf);
+}
+
+/*Création de variables pour les styles de police des textes à utiliser*/
+
+.quicksand_title{
+    font-family: quicksand-bold;
+    font-size: 28px;
+}
+.baloo_title {
+    font-family: baloo;
+    font-size: 32px;
+}
+.quicksand_text {
+    font-family: quicksand-bold;
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+}
+.flex_center {
+    align-items: center;
+    justify-content: center;
+}
+.flex_column {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.gap {
+    gap: 20px;
+}
+
+.lateral_bar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: brown;
+}
+.icons {
+    width: 30px;
+    height: 30px;
+}
+.menu {
+    margin-top: 30px;
+}
+.menu div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: quicksand-bold;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+aside h3 {
+    font-family: quicksand-regular;
+    font-size: 16px;
+    margin: 20px 0;
+    color: white;
+}
+.logout {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    color: white;
+    margin-right: 10px;
+}
+.article_edit {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.article_edit div label {
+    font-family: quicksand-regular;
+    font-size: 18px;
+}
+.article_edit div input {
+    height: 30px;
+}
+button[type=submit] {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: brown;
+    border: none;
+    width: 15%;
+    color: white;
+    font-size: 16px;
+    font-family: quicksand-regular;
+    cursor: pointer;
+}
+.article_edit div input[type=file] {
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+.article_edit div input[type=file]::-webkit-file-upload-button {
+    height: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-right: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.description {
+    resize: none;
+    outline: none;
+}
+.label_input, .label_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+.note-editor .note-toolbar {
+    display: flex;
+    align-items: center;
+}
